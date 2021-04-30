@@ -52,7 +52,7 @@ export function PharmacyList() {
   ];
 
   return (
-    <section>
+        <section>
       {pharmacyList
         ? pharmacyList.map((pharmacy: Pharmacy) => {
             return <PharmacyContainer key={pharmacy.id} pharmacy={pharmacy} />;
