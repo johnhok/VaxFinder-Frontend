@@ -59,6 +59,6 @@
     "pretty-quick": "^3.1.0"
   },
   "lint-staged": {
-    "*.{tsx,ts}": "pretty-quick --staged"
+    "*.{tsx,ts}": "pretty-quick"
   }
 }
